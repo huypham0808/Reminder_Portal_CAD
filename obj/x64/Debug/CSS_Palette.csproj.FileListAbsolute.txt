@@ -63,9 +63,6 @@ D:\4.PERSONAL\5.CODING\6.ToolpalletAC\CSS_Palette_02-13-2023\CSS_Palette\obj\x64
 D:\4.PERSONAL\5.CODING\6.ToolpalletAC\CSS_Palette_02-13-2023\CSS_Palette\obj\x64\Debug\CSS_Palette.csproj.CopyComplete
 D:\4.PERSONAL\5.CODING\6.ToolpalletAC\CSS_Palette_02-13-2023\CSS_Palette\obj\x64\Debug\CSS_Palette.dll
 D:\4.PERSONAL\5.CODING\6.ToolpalletAC\CSS_Palette_02-13-2023\CSS_Palette\obj\x64\Debug\CSS_Palette.pdb
-D:\4.PERSONAL\5.CODING\6.ToolpalletAC\CSS_Palette_02-13-2023\CSS_Palette_051823\obj\x64\Debug\mainForm2.g.cs
-D:\4.PERSONAL\5.CODING\6.ToolpalletAC\CSS_Palette_02-13-2023\CSS_Palette_051823\obj\x64\Debug\CSS_Palette_MarkupCompile.cache
-D:\4.PERSONAL\5.CODING\6.ToolpalletAC\CSS_Palette_02-13-2023\CSS_Palette_051823\obj\x64\Debug\CSS_Palette_MarkupCompile.lref
 D:\4.PERSONAL\5.CODING\6.ToolpalletAC\CSS_Palette_02-13-2023\CSS_Palette_051823\bin\x64\Debug\CSS_Palette.dll
 D:\4.PERSONAL\5.CODING\6.ToolpalletAC\CSS_Palette_02-13-2023\CSS_Palette_051823\bin\x64\Debug\CSS_Palette.pdb
 D:\4.PERSONAL\5.CODING\6.ToolpalletAC\CSS_Palette_02-13-2023\CSS_Palette_051823\bin\x64\Debug\Microsoft.Bcl.AsyncInterfaces.dll
@@ -78,10 +75,12 @@ D:\4.PERSONAL\5.CODING\6.ToolpalletAC\CSS_Palette_02-13-2023\CSS_Palette_051823\
 D:\4.PERSONAL\5.CODING\6.ToolpalletAC\CSS_Palette_02-13-2023\CSS_Palette_051823\bin\x64\Debug\Stripe.net.xml
 D:\4.PERSONAL\5.CODING\6.ToolpalletAC\CSS_Palette_02-13-2023\CSS_Palette_051823\bin\x64\Debug\System.Runtime.CompilerServices.Unsafe.xml
 D:\4.PERSONAL\5.CODING\6.ToolpalletAC\CSS_Palette_02-13-2023\CSS_Palette_051823\bin\x64\Debug\System.Threading.Tasks.Extensions.xml
+D:\4.PERSONAL\5.CODING\6.ToolpalletAC\CSS_Palette_02-13-2023\CSS_Palette_051823\obj\x64\Debug\mainForm2.g.cs
+D:\4.PERSONAL\5.CODING\6.ToolpalletAC\CSS_Palette_02-13-2023\CSS_Palette_051823\obj\x64\Debug\CSS_Palette_MarkupCompile.cache
+D:\4.PERSONAL\5.CODING\6.ToolpalletAC\CSS_Palette_02-13-2023\CSS_Palette_051823\obj\x64\Debug\CSS_Palette_MarkupCompile.lref
 D:\4.PERSONAL\5.CODING\6.ToolpalletAC\CSS_Palette_02-13-2023\CSS_Palette_051823\obj\x64\Debug\mainForm2.baml
 D:\4.PERSONAL\5.CODING\6.ToolpalletAC\CSS_Palette_02-13-2023\CSS_Palette_051823\obj\x64\Debug\CSS_Palette.g.resources
 D:\4.PERSONAL\5.CODING\6.ToolpalletAC\CSS_Palette_02-13-2023\CSS_Palette_051823\obj\x64\Debug\CSS_Palette.csproj.CoreCompileInputs.cache
 D:\4.PERSONAL\5.CODING\6.ToolpalletAC\CSS_Palette_02-13-2023\CSS_Palette_051823\obj\x64\Debug\CSS_Palette.csproj.CopyComplete
 D:\4.PERSONAL\5.CODING\6.ToolpalletAC\CSS_Palette_02-13-2023\CSS_Palette_051823\obj\x64\Debug\CSS_Palette.dll
 D:\4.PERSONAL\5.CODING\6.ToolpalletAC\CSS_Palette_02-13-2023\CSS_Palette_051823\obj\x64\Debug\CSS_Palette.pdb
-D:\4.PERSONAL\5.CODING\6.ToolpalletAC\CSS_Palette_02-13-2023\CSS_Palette_051823\obj\x64\Debug\CSS_Palette.csproj.AssemblyReference.cache

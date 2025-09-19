@@ -12,28 +12,31 @@ using Autodesk.AutoCAD.Windows;
 using System.Windows;
 using AcAp = Autodesk.AutoCAD.ApplicationServices.Application;
 using System.IO;
-//using Autodesk.AutoCAD.ApplicationServices.Application;
+using System.Windows.Forms;
 
+
+[assembly: CommandClass(typeof(CSS_Palette.CSS_ToolPalette))]
 namespace CSS_Palette
 {
     public class CSS_ToolPalette
     {
         static PaletteSet palette;
         static bool wasVisible;
-        [CommandMethod("CSS_Palette")]
+        [CommandMethod("CSS_PALETTE", CommandFlags.Modal)]
         public static void CSS_Utility()
         {
             if (palette == null)
             {
-                palette = new PaletteSet("CSS_Reminder", "CSSPALETTE", new Guid("{F60AE3DA-0373-4d24-82D2-B2646517ABCB}"));
+                palette = new PaletteSet("CSS_Reminder", "CSSPALETTE", new Guid("{E0A6F2C6-2D74-42FE-BFF2-2AAE212C9322}"));
                 palette.Style = PaletteSetStyles.ShowAutoHideButton |
                                 PaletteSetStyles.ShowCloseButton |
                                 PaletteSetStyles.ShowPropertiesMenu;
-                palette.MinimumSize = new System.Drawing.Size(200, 180);
-                palette.AddVisual("Tab 1", new mainForm2());
+                palette.MinimumSize = new System.Drawing.Size(350, 800);
+                palette.AddVisual("REMINDER", new mainForm2());
                 //palette.AddVisual("Tab 2", new mainForm2());
+                //PaletteSetStyles.ShowTabForSingle |
 
-                var docs = Autodesk.AutoCAD.ApplicationServices.Application.DocumentManager;
+                var docs = AcAp.DocumentManager;
                 docs.DocumentBecameCurrent += (s, e) => palette.Visible = e.Document == null ? false : wasVisible;
                 docs.DocumentCreated += (s, e) => palette.Visible = wasVisible;
                 docs.DocumentToBeDeactivated += (s, e) => wasVisible = palette.Visible;
@@ -45,9 +48,8 @@ namespace CSS_Palette
                 };
             }
             palette.Visible = true;
-            palette.Dock = DockSides.Left;
             palette.RolledUp = true;
-            //palette.AutoRollUp = true;
+            palette.DockEnabled = DockSides.Left;
         }
         [CommandMethod("CSS_TEMPLATE")]
         public void CSS_Template()

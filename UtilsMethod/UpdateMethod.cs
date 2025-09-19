@@ -11,6 +11,8 @@ using Autodesk.AutoCAD.Geometry;
 using Autodesk.AutoCAD.EditorInput;
 using Autodesk.AutoCAD.Windows;
 using AcAp = Autodesk.AutoCAD.ApplicationServices.Application;
+using System.Windows.Forms;
+
 namespace CSS_Palette.UtilsMethod
 {
     public class UpdateMethod
@@ -32,6 +34,7 @@ namespace CSS_Palette.UtilsMethod
             }
             else
             {
+               
                 ed.WriteMessage("Template not found !");
             }
 

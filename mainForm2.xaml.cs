@@ -16,6 +16,7 @@ using System.Data;
 using System.Collections.ObjectModel;
 using System.Text.RegularExpressions;
 using System.Diagnostics;
+using CSS_Palette.ViewModels;
 
 namespace CSS_Palette
 {
@@ -326,5 +327,5 @@ namespace CSS_Palette
             Process.Start(new ProcessStartInfo(e.Uri.AbsoluteUri));
             e.Handled = true;
         }
-     }
+    }
 }
